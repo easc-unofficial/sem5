@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    width: 100%;
+    background-color: rgb(2, 21, 10);
+    color: rgb(54, 183, 65);
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1.1px;
+    overflow-x: hidden;
+
+
+}
+
+.container{
+    font-family: monospace;
+    font-size: 1rem;
+    max-width: 100%; 
+    text-align: center;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    background-color: rgba(1, 19, 18, 0.751);
+    border-radius: 1rem;
+    padding-bottom: 2rem;
+}
+
+
+
+.subjects > div{
+
+    background-color: rgb(48, 160, 119);
+}
+
+
+ol{
+    display: flex;
+    justify-content: space-around;
+}
+
+li>a{
+    text-decoration: none;
+    color: aquamarine;
+    font-size: 1.4rem;
+}
+
+li{
+    list-style-type: none;
+}
+
+
+
+
+
+
+
+a:hover{
+    border-bottom: 1px solid cyan;
+}
+
+a:focus{
+    border-bottom: 2px solid rgb(56, 252, 115);
+}
+
+.subjects{
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr ;
+
+}
+
+.subjects >div{
+    width: 16rem;
+    height: 22rem;
+    margin: .8rem;
+    padding: 1rem ;
+    border-radius: .6rem;
+    box-shadow: 3px 3px 10px  rgb(0, 0, 0);
+}
+
+div>span{
+    width: 15rem;
+    height: 3rem;
+    background-color:rgb(0, 0, 0) ;
+    border-radius: .5rem;
+    line-height:2.9rem;
+
+}
+
+div{
+    display: grid;
+    place-items: center;
+}
+
+.subjects > div >span >a{
+    text-decoration: none;
+    color: rgba(226, 227, 228, 0.878);
+    align-items: center;
+}
+
+
+
+@media screen and (min-width:1024px) {
+
+    
+    .title1{
+        color: black;
+    }
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    display: grid;
+    place-items: center;
+    width: 100%;
+
+    background-color: rgb(27, 27, 27);
+    color: rgb(54, 183, 65);
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1.1px;
+
+}
+
+.container{
+    transition: .3s;
+    font-family: monospace;
+    font-size: 2rem;
+    max-width: 100%; 
+    text-align: center;
+    width: 60%;
+    height: 100%;
+    background-color: rgba(1, 19, 18, 0.751);
+    border-radius: 1rem;
+    border: 2px solid rgb(30, 30, 30);
+    box-shadow: 3px 3px 6px  rgba(0, 0, 0, 0.839);
+    padding-bottom: 1rem;
+
+}
+
+
+
+.subjects > div{
+
+    background-color: rgb(15, 131, 100);
+    border: 2px solid rgb(41, 41, 41);
+
+}
+
+header{
+    color: aliceblue;
+    padding: .6rem;
+    width: 55%;
+    margin:1rem 2rem 1rem 2rem;
+    border-radius: 1rem;
+}
+
+ol{
+    display: flex;
+    justify-content: space-around;
+}
+
+li>a{
+    text-decoration: none;
+    color: aquamarine;
+    font-size: 1.4rem;
+}
+
+li{
+    list-style-type: none;
+}
+
+
+
+.cg,.web,.home,.ai,.vb{
+    padding: .6rem 3.94rem;
+
+}
+
+.home{
+    background-color: rgba(0, 0, 0, 0.721);
+}
+.vb{
+    background-color: rgb(2, 34, 34);
+}
+
+.cg{
+    background-color: rgba(0, 0, 0, 0.625)
+}
+.web{
+    background-color:rgb(2, 34, 34);
+}
+.ai{
+    background-color: rgba(0, 0, 0, 0.574);
+}
+
+
+
+a:hover{
+    border-bottom: 1px solid cyan;
+}
+
+a:focus{
+    border-bottom: 2px solid rgb(56, 252, 115);
+}
+
+.subjects{
+    display: grid;
+    grid-template-columns: 1fr  ;
+    grid-template-rows: 1fr ;
+    gap:3.3rem;
+    margin-bottom: 1rem;
+
+}
+
+.subjects >div{
+    transition: .2s;
+    width: 19rem;
+    height: 24rem;
+    margin: .4rem;
+    padding: 1rem ;
+    font-size: 1.2rem;
+    border-radius: .6rem;
+    box-shadow: 3px 3px 10px  black;
+}
+
+div>span{
+    width: 15rem;
+    height: 3rem;
+    background-color:rgb(0, 0, 0) ;
+    border-radius: .5rem;
+    line-height:2.9rem;
+}
+
+div{
+    display: grid;
+    place-items: center;
+}
+
+.subjects > div >span >a{
+    text-decoration: none;
+    color: rgba(226, 227, 228, 0.878);
+    align-items: center;
+}
+
+
+
+
+}
+
+
+
+header{
+    padding: 1rem;
+}
+
+
+.none{
+    display: none;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center vertically */
+    width: 100%;
+    min-height: 6vh; /* Adjust this value as needed */
+    text-align: center;
+    margin-top:5.6rem;
+  }
+  
+  footer > h3 {
+    font-size: .5rem; /* Increase font size for readability */
+  }
+  
+
+header{
+    margin-bottom: .7rem;
+    margin-top: 1.2rem;
+}
+
+
+
+
+
+
+
+.title1{
+    color: black;
+}
